@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            min-height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1583440194369-ac78b451536a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box {
+            transform: translateY(0);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            z-index: 1;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Cyber theme */
+        .box-cyber {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #00ff00; /* Green text color */
+            border: 2px solid #00ff00; /* Green border */
+        }
+
+        .box-cyber:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 255, 0, 0.3), 0 4px 6px -2px rgba(0, 255, 0, 0.1);
+        }
+    </style>
+    <title>picoCTF Questions</title>
+</head>
+<body class="bg-gray-100">
+
+<div class="container mx-auto p-8 flex justify-center items-center flex-wrap">
+    <!-- Box 1 -->
+    <div class="box box-cyber mx-4 my-8 p-6 rounded-lg hover:transform hover:scale-105 transition-transform">
+        <h1 class="text-2xl font-bold">Insp3t0r</h1>
+        <p><strong>Description:</strong><br>Kishor Balan tipped us off that the following code may need inspection: https://jupiter.challenges.picoctf.org/problem/44924/<span style="color: blue;"><a href="https://jupiter.challenges.picoctf.org/problem/41511/">(Link)</a></span></p>
+    </p>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box box-cyber mx-4 my-8 p-6 rounded-lg hover:transform hover:scale-105 transition-transform">
+        <h1 class="text-2xl font-bold">strings it</h1>
+        <p><strong>Description:</strong><br>Can you find the flag in <span style="color: blue;"><a href="https://jupiter.challenges.picoctf.org/static/94d00153b0057d37da225ee79a846c62/strings">file </a></span>without running it?</p>
+    </p>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box box-cyber  mx-4 my-8 p-6 rounded-lg hover:transform hover:scale-105 transition-transform">
+        <h1 class="text-2xl font-bold">MacroHard WeakEdge</h1>
+        <p><strong>Description:</strong><br>I've hidden a flag in this file. Can you find it? <span style="color: blue;"><a href="https://mercury.picoctf.net/static/c0da20f29337e87ffb58ea987d8c596e/Forensics%20is%20fun.pptm">Forensics is fun.pptm</a></span></p>
+    </p>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="box box-cyber mx-4 my-8 p-6 rounded-lg hover:transform hover:scale-105 transition-transform">
+        <h1 class="text-2xl font-bold">Scavenger Hunt</h1>
+        <p><strong>Description:</strong><br>There is some interesting information hidden around this site <span style="color: blue;"><a href="http://mercury.picoctf.net:44070/">http://mercury.picoctf.net:44070/.</a></span> Can you find it?</p>
+    </p>
+    </div>
+
+    <!-- Box 5 -->
+    <div class="box box-cyber mx-4 my-8 p-6 rounded-lg hover:transform hover:scale-105 transition-transform">
+        <h1 class="text-2xl font-bold">It is my Birthday</h1>
+        <p><strong>Description:</strong><br>I sent out 2 invitations to all of my friends for my birthday! I'll know if they get stolen because the two invites look similar, and they even have the same md5 hash, but they are slightly different! You wouldn't believe how long it took me to find a collision. Anyway, see if you're invited by submitting 2 PDFs to my website. <span style="color: blue;"><a href="http://mercury.picoctf.net:11590/">http://mercury.picoctf.net:11590/</a></span></p>
+    </p>
+    </div>
+</div>
+
+</body>
+</html>
